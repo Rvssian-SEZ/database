@@ -93,7 +93,6 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '1080p Quality Tier 5', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '1080p Quality Tier 6', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'AAC', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'ASL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'AV1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Banned Groups', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Banned WEBRip', 'sonarr', 0);
@@ -112,18 +111,15 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'German DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'h265', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'HDR', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'HDR10', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'HDR10+', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'HLG', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Opus', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'PQ', 'sonarr', 0);
--- --- END op 20046
-
--- --- BEGIN op 20047 ( update quality_profile "1080p Anime" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Remux', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Repack1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Repack2', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Repack3', 'sonarr', 0);
+-- --- END op 20046
+
+-- --- BEGIN op 20047 ( update quality_profile "1080p Anime" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'ROKU', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'VP9', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'VVC', 'sonarr', 0);
@@ -158,18 +154,15 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Banned List - Anime', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'SUBFRENCH', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Dual Audio 2 Anime', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Remux (Source)', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Season Pack', 'sonarr', 0);
--- --- END op 20047
-
--- --- BEGIN op 20048 ( update quality_profile "1080p Anime" (custom format scores 80-104) )
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'TV Extras', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Upscaled', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '720p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'HONE Blurays', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'Banned UHD Bluray', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '2160p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '720p Bluray', 'sonarr', 0);
+-- --- END op 20047
+
+-- --- BEGIN op 20048 ( update quality_profile "1080p Anime" (custom format scores 80-97) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'DTS-HD MA', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', '2160p Balanced Tier 1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime', 'TrueHD', 'sonarr', 0);
@@ -279,7 +272,6 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '1080p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '1080p WEBRip', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'AAC', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'ASL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'AV1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Banned Groups', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Banned WEBRip', 'sonarr', 0);
@@ -298,19 +290,16 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'German DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'h265', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HDR', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HDR10', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HDR10+', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HLG', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Opus', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'PQ', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Remux', 'sonarr', 0);
--- --- END op 20058
-
--- --- BEGIN op 20059 ( update quality_profile "1080p Anime - Dual Audio" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Repack1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Repack2', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Repack3', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'ROKU', 'sonarr', 0);
+-- --- END op 20058
+
+-- --- BEGIN op 20059 ( update quality_profile "1080p Anime - Dual Audio" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'VP9', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'VVC', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'WEB-DL Tier 1', 'sonarr', 0);
@@ -342,14 +331,8 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Anime Raw', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Banned List - Anime', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'WEB-DL Tier 3', 'sonarr', 60);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Remux (Source)', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Season Pack', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'TV Extras', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Upscaled', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '720p WEB-DL', 'sonarr', 0);
--- --- END op 20059
-
--- --- BEGIN op 20060 ( update quality_profile "1080p Anime - Dual Audio" (custom format scores 80-104) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HONE Blurays', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'Banned UHD Bluray', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '2160p WEB-DL', 'sonarr', 0);
@@ -357,6 +340,9 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'DTS-HD MA', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '2160p Balanced Tier 1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'TrueHD', 'sonarr', 0);
+-- --- END op 20059
+
+-- --- BEGIN op 20060 ( update quality_profile "1080p Anime - Dual Audio" (custom format scores 80-97) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', '576p Bluray', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'PCM', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio', 'HDR (Missing)', 'sonarr', 0);
@@ -467,7 +453,6 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '1080p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '1080p WEBRip', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'AAC', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'ASL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'AV1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Banned Groups', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Banned WEBRip', 'sonarr', 0);
@@ -486,18 +471,15 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'German DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'h265', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'HDR', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'HDR10', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'HDR10+', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'HLG', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Opus', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'PQ', 'sonarr', 0);
--- --- END op 20070
-
--- --- BEGIN op 20071 ( update quality_profile "1080p Anime - Dual Audio - Upgrades" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Remux', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Repack1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Repack2', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Repack3', 'sonarr', 0);
+-- --- END op 20070
+
+-- --- BEGIN op 20071 ( update quality_profile "1080p Anime - Dual Audio - Upgrades" (custom format scores 40-79) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'ROKU', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'VP9', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'VVC', 'sonarr', 0);
@@ -531,19 +513,16 @@ INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Anime Raw', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Banned List - Anime', 'sonarr', -10000);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'WEB-DL Tier 3', 'sonarr', 60);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Remux (Source)', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Season Pack', 'sonarr', 0);
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'TV Extras', 'sonarr', 0);
--- --- END op 20071
-
--- --- BEGIN op 20072 ( update quality_profile "1080p Anime - Dual Audio - Upgrades" (custom format scores 80-104) )
-INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Upscaled', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '720p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'HONE Blurays', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Banned UHD Bluray', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '2160p WEB-DL', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '720p Bluray', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'DTS-HD MA', 'sonarr', 0);
+-- --- END op 20071
+
+-- --- BEGIN op 20072 ( update quality_profile "1080p Anime - Dual Audio - Upgrades" (custom format scores 80-97) )
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '2160p Balanced Tier 1', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', 'TrueHD', 'sonarr', 0);
 INSERT INTO quality_profile_custom_formats (quality_profile_name, custom_format_name, arr_type, score) VALUES ('1080p Anime - Dual Audio - Upgrades', '576p Bluray', 'sonarr', 0);
