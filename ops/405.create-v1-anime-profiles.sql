@@ -55,8 +55,8 @@ INSERT INTO quality_group_members (quality_profile_name, quality_group_name, qua
 
 -- --- BEGIN op 20045 ( update quality_profile "1080p Anime" (qualities) )
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Bluray-576p', NULL, 0, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Bluray-2160p Remux', NULL, 1, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Bluray-1080p Remux', NULL, 2, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Remux-2160p', NULL, 1, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Remux-1080p', NULL, 2, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'Bluray-2160p', NULL, 3, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'WEBDL-2160p', NULL, 4, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime', 'WEBRip-2160p', NULL, 5, 0, 0);
@@ -242,8 +242,8 @@ INSERT INTO quality_group_members (quality_profile_name, quality_group_name, qua
 
 -- --- BEGIN op 20057 ( update quality_profile "1080p Anime - Dual Audio" (qualities) )
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Bluray-576p', NULL, 0, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Bluray-2160p Remux', NULL, 1, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Bluray-1080p Remux', NULL, 2, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Remux-2160p', NULL, 1, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Remux-1080p', NULL, 2, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'Bluray-2160p', NULL, 3, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'WEBDL-2160p', NULL, 4, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio', 'WEBRip-2160p', NULL, 5, 0, 0);
@@ -429,8 +429,8 @@ INSERT INTO quality_group_members (quality_profile_name, quality_group_name, qua
 
 -- --- BEGIN op 20069 ( update quality_profile "1080p Anime - Dual Audio - Upgrades" (qualities) )
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Bluray-576p', NULL, 0, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Bluray-2160p Remux', NULL, 1, 0, 0);
-INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Bluray-1080p Remux', NULL, 2, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Remux-2160p', NULL, 1, 0, 0);
+INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Remux-1080p', NULL, 2, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'Bluray-2160p', NULL, 3, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'WEBDL-2160p', NULL, 4, 0, 0);
 INSERT INTO quality_profile_qualities (quality_profile_name, quality_name, quality_group_name, position, enabled, upgrade_until) VALUES ('1080p Anime - Dual Audio - Upgrades', 'WEBRip-2160p', NULL, 5, 0, 0);
